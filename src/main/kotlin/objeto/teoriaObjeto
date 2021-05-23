@@ -1,0 +1,38 @@
+* Objetos:
+    . Para se declarar um OBJETO, é necessário trazê-lo do mundo real;
+    . Declarado o objeto, este necessita de ATRIBUTOS (ou características);
+    . Posteriormente a criação do objeto e de seus atributos, cria-se os MÉTODOS, ações.
+    . Os objetos são representados por class.
+
+    Exemplo:
+        Objeto carro
+            1) Propriedades: 1. Altura;
+                             2. Cor;
+                             3. Largura.
+            2) Métodos: 1. Abrir a porta;
+                        2. Parar;
+                        3. Acelerar;
+                        4. Buzinar.
+
+* Para o que serve a class?
+   1) Ela contém todos os ATRIBUTOS (características) do OBJETO:
+            Estrutura: var atributo: String = ""
+                       var atributo: Int = 0
+      . Ao declarar a class necessita instanciar a classe na fun main() {}
+            Estrutura na fun main: var primeiro_carro = Classe()
+      . Ao instanciar a class utilizamos os atributos da class criada;
+            Estrutura na fun main: primeiro_carro.cor = "Azul"
+      . Para ver o que fora feito, utiliza-se uma saída;
+            Estrutura na fun main: println(primeiro_carro.cor)
+            Saída: Azul
+      . Obs: o PONTO indica o acesso a um atributo ou método da class.
+
+   2) Ela contém todos os MÉTODOS (ações) do OBJETO:
+            Estrutura: fun metodo() {}
+
+
+* Dicas de Boas Práticas para a criação de OBJETOS:
+    . Utiliza-se a "class" para criação de objetos;
+    . O nome da class se inicia com letra maiúscula;
+            Exemplo: class Pessoa {}
+
