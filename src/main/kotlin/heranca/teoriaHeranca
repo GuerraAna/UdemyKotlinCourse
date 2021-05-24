@@ -1,0 +1,27 @@
+* Herança:
+    .
+    . Levar em consideração ações e parâmetros iguais e diferentes entre objetos;
+    . As ações iguais entre os objetos entrará no conceito de herança;
+    . Para evitar a repetição de códigos de ações, utiliza-se herança;
+
+  - Como cria uma Herança?
+    . Crie uma nova classe, mas open, que engloba todas as ações iguais entre os objetos;
+    . Note que a classe mãe terá open em seu nome e as classes filhas herdaram dela;
+    . A herança usa os dois pontos e o nome da classe mãe.
+               Estrutura Herança:
+                    open class Animal {
+                        fun dormir() {
+                                println("Dormindo")
+                        }
+                    }
+                    class Cachorro: Animal() {
+                        fun latir {
+                            prinln("O cachorro está latindo")
+                        }
+                    }
+                    fun main() {
+                        val pintcher = Cachorro()
+                        pintcher.latir()
+                        pintcher.dormir()
+                        }
+    Dica: Pense em animais que isso facilitará a compreensão da herança.
