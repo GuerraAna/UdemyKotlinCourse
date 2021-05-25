@@ -1,0 +1,9 @@
+* Modificadores de Acesso:
+    . Utilizado em classes, funções, métodos.
+        1) private(privado): visível apenas dentro da própria classe;
+            Exemplo de estrutura:
+                   private var cor = "vermelho"
+        2) protected(protegido): visível apenas nas classes filhas;
+            Exemplo de estrutura:
+                   protected var cor = "vermelho"
+        3) public(público): visível no projeto inteiro;
