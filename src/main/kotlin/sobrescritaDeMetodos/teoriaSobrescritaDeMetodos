@@ -1,0 +1,5 @@
+* Sobrescrita de Métodos:
+    . Ocorre quando há a necessidade de sobreescrever um método (ação em uma class);
+    . Estrutura:
+                override fun nomeMetodo() {}
+    . Para facilitar a compreensão, analise a prática.
