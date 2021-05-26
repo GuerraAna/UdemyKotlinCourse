@@ -1,2 +1,6 @@
-* Interface:
+* Interface (É um contrato que deve ser assinado ao implementar):
     . É utilizada quando há muitas classes com os mesmos métodos executados de maneiras diferentes;
+    . Define os métodos que serão assinados;
+    . A Interface não possui ESTADO ou VALORES, ou seja, propriedade;
+
+    OBS.: Existe Interface múltipla em Kotlin.
