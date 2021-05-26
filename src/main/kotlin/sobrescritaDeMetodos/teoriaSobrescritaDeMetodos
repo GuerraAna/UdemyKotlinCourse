@@ -1,5 +1,16 @@
 * Sobrescrita de Métodos:
+
+    1) Override:
     . Ocorre quando há a necessidade de sobreescrever um método (ação em uma class);
     . Estrutura:
                 override fun nomeMetodo() {}
     . Para facilitar a compreensão, analise a prática.
+
+
+    2) Overload:
+    . Ocorre quando há repeição de parâmetros, mas com diferentes tipagens;
+    . Ou ocorre quando há mais de um parâmetro para a propriedade.
+    . Estrutura:
+                fun overload(i: Int) = println("carlos")
+                fun overload(i: String) = println("pedro")
+                fun overload(i: Int, c: String) = println("maria")

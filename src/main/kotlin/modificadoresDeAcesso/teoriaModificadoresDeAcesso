@@ -1,4 +1,4 @@
-* Modificadores de Acesso:
+* Modificadores de Acesso(ou modificadores de acessibilidade):
     . Utilizado em classes, funções, métodos.
         1) private(privado): visível apenas dentro da própria classe;
             Exemplo de estrutura:
