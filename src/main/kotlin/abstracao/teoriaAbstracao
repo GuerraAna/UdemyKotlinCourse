@@ -1,1 +1,10 @@
 * Abstração:
+    . Como o próprio nome já diz, abastrato!
+    . Tudo o que possui um conceito das classes;
+        Exemplo:
+            "Em uma empresa existe o Diretor, Gerente e os funcionários, mas o Diretor
+            e o Gerente, ainda assim, são funcionários da empresa! Por conta disso, é
+            necessário se atentar que a classe dos funcionários não é a mesma que a classe
+            do Funcionário.
+            A abstract class é a funcionarios e dela sera herdado os funcionários, Gerente
+            e diretor."

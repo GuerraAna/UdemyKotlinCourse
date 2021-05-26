@@ -1,8 +1,8 @@
 * Herança:
-    .
     . Levar em consideração ações e parâmetros iguais e diferentes entre objetos;
     . As ações iguais entre os objetos entrará no conceito de herança;
     . Para evitar a repetição de códigos de ações, utiliza-se herança;
+    . Ao herdar uma classe é obrigatório ter o parâmetro do construtor pai.
 
   - Como cria uma Herança?
     . Crie uma nova classe, mas open, que engloba todas as ações iguais entre os objetos;
