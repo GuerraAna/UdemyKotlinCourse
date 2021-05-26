@@ -1,4 +1,19 @@
-* Companion Object:
+* Método estático:
+    É uma função estática que os métodos, de uma class, podem acessar.
 
+        1) Companion Object:
+            . Tudo o que está dentro do Companion Object é comparilhado dentro
+            da class;
+            . Pode ou não ter um nome;
+            . Pode ser utilizado quando algo da class é privado, como o construtor.
+            Onde o companion object tem acesso a ele e depois passado para quem o
+            invocá-lo.
+                        Estrutura:
+                           companion object {
+                                fun dinheiro(nota: String) {
+                                }
+                           }
 
-* Object:
+        2) Object:
+            . Semelhante ao companion object;
+            . É obrigatório ter um nome;
