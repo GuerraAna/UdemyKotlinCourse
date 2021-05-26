@@ -1,0 +1,5 @@
+package abstracao
+
+fun main() {
+
+}
