@@ -1,12 +1,12 @@
 * COLLECTIONS (coleções):
         . São estruturas de dados para a criação de listas;
         . nomeDaLista.add("item") adiciona itens na lista;
-        . nomeDaLista[0] = "item" altera um item pela posicao por outro;
+        . nomeDaLista[0] = "item" altera um item pela posição por outro;
         . nomeDaLista.remove("item") para remover uma lista.
         . println(nomeDaLista.size) para mostrar quantos itens tem na lista;
         . println(nomeDaLista.isEmpty) para mostrar se a lista esta vazia e retorna um Boolean true ou false;
 
-                obs.: a colecao sempre comeca por zero (0) a contagem.
+                obs.: a coleção sempre começa por zero (0) a contagem.
                 obs.: a tipagem da lista e indicada por lista<tipo>()
 
     1) List: Lista Imutável - Tamanho Fixo - Apenas para Leitura;
@@ -24,5 +24,5 @@
         . Estrutura:
             arrayListOf("item", "item", "item")
 
-    4) arrayOf: Lista Mutavel - Sem Tamanho Fixo - Pode Alterar itens;
+    4) arrayOf: Lista Mutável - Sem Tamanho Fixo - Pode Alterar itens;
         . Nao da para adicionar itens;

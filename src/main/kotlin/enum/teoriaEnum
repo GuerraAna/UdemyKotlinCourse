@@ -1,0 +1,12 @@
+* ENUM:
+        . Enumeradores;
+        . São tipos de dados como conjunto de constantes (valores);
+        . Exemplo de aplicação: status de algo.
+                "Ao criar um aplicativo com status de pedido, podendo ser aprovado, em análise e reprovado."
+        . Estrutura:
+                enum class Nome() {
+                    PRIMEIRA_CONSTANTE, SEGUNDA_CONSTANTE
+                }
+
+    - Recomendações:
+        . Constantes (valores) com letra maiúscula;
